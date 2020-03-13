@@ -5,3 +5,4 @@ Data Structures and Algorithms from UG
 - Java 8
 ## Content
 - HeapSort 
+- QuickSort
