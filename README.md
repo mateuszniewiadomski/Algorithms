@@ -6,3 +6,4 @@ Data Structures and Algorithms from UG
 ## Content
 - HeapSort 
 - QuickSort
+- CountingSort
