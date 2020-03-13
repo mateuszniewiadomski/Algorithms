@@ -7,3 +7,8 @@ Data Structures and Algorithms from UG
 - HeapSort 
 - QuickSort
 - CountingSort
+- LinkedList
+- HashTables
+- BinnarySearchTree
+- RedBlackTree
+- LongestCommonSubsequence
