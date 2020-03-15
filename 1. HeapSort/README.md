@@ -1,4 +1,4 @@
-# Zadanie AL2.4 (5 pkt.)
+## Zadanie AL2.4 (5 pkt.)
 
 - Zaimplementuj omawiany na wykładzie algorytm sortowania przez kopcowanie.(4 pkt.)
 - Zmodyfikuj procedurę Heapify tak, aby używała iteracji zamiast rekursji. (1 pkt)
