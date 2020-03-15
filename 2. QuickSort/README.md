@@ -1,4 +1,4 @@
-# Zadanie AL3.5 (5 pkt.)
+## Zadanie AL3.5 (5 pkt.)
 
 - Zaimplementuj algorytm sortowania szybkiego omówiony na wykładzie. (3 pkt.)
 
