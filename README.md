@@ -12,3 +12,5 @@ Data Structures and Algorithms from UG
 - BinnarySearchTree
 - RedBlackTree
 - LongestCommonSubsequence
+- HuffmanCodes
+- B-Tree
