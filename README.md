@@ -1,17 +1,28 @@
 # Algorithms
-Data Structures and Algorithms mostly in Java
+Data Structures and Algorithms. Codes mostly written in Java.
 ## Used languages
 - Java
 - C
 ## Content
-- [HeapSort](https://github.com/mateuszniewiadomski/Algorithms/tree/master/10.%20B-Tree)
-- [QuickSort](./2. QuickSort)
-- [CountingSort](./3. CountingSort)
-- [LinkedList](./4. LinkedList)
-- [HashTables](./5. HashTables)
-- [BinnarySearchTree](./6. BinnarySearchTree)
-- [RedBlackTree](./7. RedBlackTree)
-- [LongestCommonSubsequence](./8. LongestCommonSubsequence)
-- [HuffmanCodes](./9. HuffmanCodes)
-- [B-Tree](./10. B-Tree)
-- [DisjointUnionSets](./11. DisjointUnionSets)
+Sorting Algorithms:
+- [CountingSort](https://github.com/mateuszniewiadomski/Algorithms/tree/master/CountingSort)
+- [HeapSort](https://github.com/mateuszniewiadomski/Algorithms/tree/master/B-Tree)
+- [QuickSort](https://github.com/mateuszniewiadomski/Algorithms/tree/master/QuickSort)
+
+Data Structures:
+- [HashTables](https://github.com/mateuszniewiadomski/Algorithms/tree/master/HashTables)
+- [LinkedList](https://github.com/mateuszniewiadomski/Algorithms/tree/master/LinkedList)
+- Binary Trees:
+    - [BinarySearchTree](https://github.com/mateuszniewiadomski/Algorithms/tree/master/BinnarySearchTree)
+    - [RedBlackTree](https://github.com/mateuszniewiadomski/Algorithms/tree/master/RedBlackTree)
+- Multiway Trees:
+    - [B-Tree](https://github.com/mateuszniewiadomski/Algorithms/tree/master/B-Tree)
+    - [DisjointUnionSets](https://github.com/mateuszniewiadomski/Algorithms/tree/master/DisjointUnionSets)
+
+Dynamic Programming:
+- [LongestCommonSubsequence](Lhttps://github.com/mateuszniewiadomski/Algorithms/tree/master/ongestCommonSubsequence)
+
+Data Compressions:
+- [HuffmanCodes](https://github.com/mateuszniewiadomski/Algorithms/tree/master/HuffmanCodes)
+
+
