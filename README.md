@@ -20,7 +20,7 @@ Data Structures:
     - [DisjointUnionSets](https://github.com/mateuszniewiadomski/Algorithms/tree/master/DisjointUnionSets)
 
 Dynamic Programming:
-- [LongestCommonSubsequence](Lhttps://github.com/mateuszniewiadomski/Algorithms/tree/master/ongestCommonSubsequence)
+- [LongestCommonSubsequence](Lhttps://github.com/mateuszniewiadomski/Algorithms/tree/master/LongestCommonSubsequence)
 
 Data Compressions:
 - [HuffmanCodes](https://github.com/mateuszniewiadomski/Algorithms/tree/master/HuffmanCodes)
