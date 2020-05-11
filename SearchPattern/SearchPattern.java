@@ -20,7 +20,7 @@ public class SearchPattern {
             }
             if (j == pLength) {
                 int x = 0;
-                while (lines.get(x) < i) {
+                while (lines.get(x) <= i) {
                     x++;
                 }
                 System.out.println("Pattern found at line: " + (x+1) + ", character: " + (i-lines.get(x-1)+1));
@@ -52,7 +52,7 @@ public class SearchPattern {
                 }
                 if (j == pLength) {
                     int x = 0;
-                    while (lines.get(x) < i) {
+                    while (lines.get(x) <= i) {
                         x++;
                     }
                     System.out.println("Pattern found at line: " + (x+1) + ", character: " + (i-lines.get(x-1)+1));
@@ -81,7 +81,7 @@ public class SearchPattern {
             }
             if (j == pLength) {
                 int x = 0;
-                while (lines.get(x) < (i-j)) {
+                while (lines.get(x) <= (i-j)) {
                     x++;
                 }
                 System.out.println("Pattern found at line: " + (x+1) + ", character: " + (i-lines.get(x-1)+1-j));
@@ -128,6 +128,7 @@ public class SearchPattern {
                     lines.add(x.length());
                 }
             }
+            scanner.close();
         } catch (FileNotFoundException e) {
             System.err.println("File not found");
         }
@@ -157,7 +158,7 @@ public class SearchPattern {
         KnuthMorrisPratt(text, pattern);
         long stopKnuthMorrisPratt = System.currentTimeMillis();
         System.out.println("----------------------------------------");
-        System.out.format("%20s | %15s \n", "Algorithm", "Execution Time");
+        System.out.format("%20s | %15s \n", "Algorithm", "Time Complexity");
         System.out.format("%20s | %12d ms\n", "Naive", stopNaive-startNaive);
         System.out.format("%20s | %12d ms\n", "Rabin-Karp", stopRabinKarp-startRabinKarp);
         System.out.format("%20s | %12d ms", "Knuth-Morris-Pratt", stopKnuthMorrisPratt-startKnuthMorrisPratt);
