@@ -1,0 +1,347 @@
+//////////////////////////////////////////////////////////////////////////////////
+
+teskt.txt & wzorzec.txt
+
+1) Naive Algorithm: 
+----------------------------------------
+Pattern found at line: 5, character: 21
+Pattern found at line: 332, character: 61
+Pattern found at line: 1213, character: 29
+Pattern found at line: 1410, character: 61
+Pattern found at line: 1995, character: 15
+Pattern found at line: 2309, character: 61
+Pattern found at line: 3068, character: 41
+Pattern found at line: 3380, character: 61
+----------------------------------------
+2) Rabin-Karp Algorithm: 
+----------------------------------------
+Pattern found at line: 5, character: 21
+Pattern found at line: 332, character: 61
+Pattern found at line: 1213, character: 29
+Pattern found at line: 1410, character: 61
+Pattern found at line: 1995, character: 15
+Pattern found at line: 2309, character: 61
+Pattern found at line: 3068, character: 41
+Pattern found at line: 3380, character: 61
+----------------------------------------
+3) Knuth-Morris-Pratt Algorithm: 
+----------------------------------------
+Pattern found at line: 5, character: 21
+Pattern found at line: 332, character: 61
+Pattern found at line: 1213, character: 29
+Pattern found at line: 1410, character: 61
+Pattern found at line: 1995, character: 15
+Pattern found at line: 2309, character: 61
+Pattern found at line: 3068, character: 41
+Pattern found at line: 3380, character: 61
+----------------------------------------
+           Algorithm |  Execution Time
+               Naive |           30 ms
+          Rabin-Karp |           19 ms
+  Knuth-Morris-Pratt |           16 ms
+Process finished with exit code 0
+
+
+//////////////////////////////////////////////////////////////////////////////////
+
+teskt1.txt & wzorzec1.txt
+
+1) Naive Algorithm: 
+----------------------------------------
+Pattern found at line: 22, character: 10
+Pattern found at line: 62, character: 10
+Pattern found at line: 102, character: 10
+Pattern found at line: 122, character: 10
+Pattern found at line: 132, character: 12
+Pattern found at line: 217, character: 8
+Pattern found at line: 232, character: 10
+Pattern found at line: 242, character: 12
+Pattern found at line: 252, character: 12
+Pattern found at line: 272, character: 14
+Pattern found at line: 282, character: 14
+Pattern found at line: 312, character: 14
+Pattern found at line: 322, character: 14
+Pattern found at line: 372, character: 12
+Pattern found at line: 382, character: 12
+Pattern found at line: 417, character: 12
+Pattern found at line: 437, character: 12
+Pattern found at line: 462, character: 12
+Pattern found at line: 497, character: 10
+Pattern found at line: 512, character: 10
+Pattern found at line: 537, character: 12
+Pattern found at line: 567, character: 12
+Pattern found at line: 597, character: 14
+Pattern found at line: 627, character: 12
+Pattern found at line: 637, character: 12
+Pattern found at line: 677, character: 10
+Pattern found at line: 692, character: 12
+Pattern found at line: 717, character: 14
+Pattern found at line: 727, character: 14
+Pattern found at line: 767, character: 12
+Pattern found at line: 782, character: 14
+Pattern found at line: 797, character: 14
+Pattern found at line: 812, character: 16
+Pattern found at line: 827, character: 18
+Pattern found at line: 867, character: 20
+Pattern found at line: 912, character: 20
+Pattern found at line: 927, character: 22
+Pattern found at line: 942, character: 22
+Pattern found at line: 977, character: 24
+Pattern found at line: 1022, character: 22
+Pattern found at line: 1032, character: 24
+Pattern found at line: 1097, character: 20
+Pattern found at line: 1107, character: 22
+Pattern found at line: 1137, character: 24
+Pattern found at line: 1192, character: 24
+Pattern found at line: 1202, character: 26
+Pattern found at line: 1212, character: 26
+Pattern found at line: 1227, character: 26
+Pattern found at line: 1277, character: 26
+Pattern found at line: 1287, character: 26
+Pattern found at line: 1312, character: 26
+Pattern found at line: 1327, character: 26
+Pattern found at line: 1347, character: 26
+Pattern found at line: 1367, character: 26
+Pattern found at line: 1382, character: 26
+Pattern found at line: 1442, character: 28
+Pattern found at line: 1472, character: 26
+Pattern found at line: 1487, character: 28
+Pattern found at line: 1552, character: 24
+Pattern found at line: 1582, character: 24
+Pattern found at line: 1662, character: 24
+Pattern found at line: 1672, character: 26
+Pattern found at line: 1682, character: 26
+Pattern found at line: 1717, character: 26
+Pattern found at line: 1757, character: 28
+Pattern found at line: 1772, character: 28
+Pattern found at line: 1792, character: 30
+Pattern found at line: 1802, character: 32
+Pattern found at line: 1822, character: 34
+Pattern found at line: 1852, character: 32
+Pattern found at line: 1867, character: 34
+Pattern found at line: 1877, character: 34
+Pattern found at line: 1902, character: 34
+Pattern found at line: 1932, character: 36
+Pattern found at line: 1977, character: 36
+Pattern found at line: 2047, character: 30
+Pattern found at line: 2067, character: 30
+Pattern found at line: 2092, character: 28
+Pattern found at line: 2102, character: 28
+Pattern found at line: 2122, character: 28
+Pattern found at line: 2147, character: 28
+Pattern found at line: 2172, character: 28
+Pattern found at line: 2227, character: 26
+Pattern found at line: 2242, character: 28
+Pattern found at line: 2257, character: 30
+Pattern found at line: 2287, character: 32
+Pattern found at line: 2307, character: 32
+Pattern found at line: 2332, character: 34
+Pattern found at line: 2347, character: 36
+Pattern found at line: 2367, character: 34
+Pattern found at line: 2382, character: 34
+Pattern found at line: 2422, character: 36
+Pattern found at line: 2432, character: 36
+Pattern found at line: 2447, character: 36
+Pattern found at line: 2492, character: 34
+----------------------------------------
+2) Rabin-Karp Algorithm: 
+----------------------------------------
+Pattern found at line: 22, character: 10
+Pattern found at line: 62, character: 10
+Pattern found at line: 102, character: 10
+Pattern found at line: 122, character: 10
+Pattern found at line: 132, character: 12
+Pattern found at line: 217, character: 8
+Pattern found at line: 232, character: 10
+Pattern found at line: 242, character: 12
+Pattern found at line: 252, character: 12
+Pattern found at line: 272, character: 14
+Pattern found at line: 282, character: 14
+Pattern found at line: 312, character: 14
+Pattern found at line: 322, character: 14
+Pattern found at line: 372, character: 12
+Pattern found at line: 382, character: 12
+Pattern found at line: 417, character: 12
+Pattern found at line: 437, character: 12
+Pattern found at line: 462, character: 12
+Pattern found at line: 497, character: 10
+Pattern found at line: 512, character: 10
+Pattern found at line: 537, character: 12
+Pattern found at line: 567, character: 12
+Pattern found at line: 597, character: 14
+Pattern found at line: 627, character: 12
+Pattern found at line: 637, character: 12
+Pattern found at line: 677, character: 10
+Pattern found at line: 692, character: 12
+Pattern found at line: 717, character: 14
+Pattern found at line: 727, character: 14
+Pattern found at line: 767, character: 12
+Pattern found at line: 782, character: 14
+Pattern found at line: 797, character: 14
+Pattern found at line: 812, character: 16
+Pattern found at line: 827, character: 18
+Pattern found at line: 867, character: 20
+Pattern found at line: 912, character: 20
+Pattern found at line: 927, character: 22
+Pattern found at line: 942, character: 22
+Pattern found at line: 977, character: 24
+Pattern found at line: 1022, character: 22
+Pattern found at line: 1032, character: 24
+Pattern found at line: 1097, character: 20
+Pattern found at line: 1107, character: 22
+Pattern found at line: 1137, character: 24
+Pattern found at line: 1192, character: 24
+Pattern found at line: 1202, character: 26
+Pattern found at line: 1212, character: 26
+Pattern found at line: 1227, character: 26
+Pattern found at line: 1277, character: 26
+Pattern found at line: 1287, character: 26
+Pattern found at line: 1312, character: 26
+Pattern found at line: 1327, character: 26
+Pattern found at line: 1347, character: 26
+Pattern found at line: 1367, character: 26
+Pattern found at line: 1382, character: 26
+Pattern found at line: 1442, character: 28
+Pattern found at line: 1472, character: 26
+Pattern found at line: 1487, character: 28
+Pattern found at line: 1552, character: 24
+Pattern found at line: 1582, character: 24
+Pattern found at line: 1662, character: 24
+Pattern found at line: 1672, character: 26
+Pattern found at line: 1682, character: 26
+Pattern found at line: 1717, character: 26
+Pattern found at line: 1757, character: 28
+Pattern found at line: 1772, character: 28
+Pattern found at line: 1792, character: 30
+Pattern found at line: 1802, character: 32
+Pattern found at line: 1822, character: 34
+Pattern found at line: 1852, character: 32
+Pattern found at line: 1867, character: 34
+Pattern found at line: 1877, character: 34
+Pattern found at line: 1902, character: 34
+Pattern found at line: 1932, character: 36
+Pattern found at line: 1977, character: 36
+Pattern found at line: 2047, character: 30
+Pattern found at line: 2067, character: 30
+Pattern found at line: 2092, character: 28
+Pattern found at line: 2102, character: 28
+Pattern found at line: 2122, character: 28
+Pattern found at line: 2147, character: 28
+Pattern found at line: 2172, character: 28
+Pattern found at line: 2227, character: 26
+Pattern found at line: 2242, character: 28
+Pattern found at line: 2257, character: 30
+Pattern found at line: 2287, character: 32
+Pattern found at line: 2307, character: 32
+Pattern found at line: 2332, character: 34
+Pattern found at line: 2347, character: 36
+Pattern found at line: 2367, character: 34
+Pattern found at line: 2382, character: 34
+Pattern found at line: 2422, character: 36
+Pattern found at line: 2432, character: 36
+Pattern found at line: 2447, character: 36
+Pattern found at line: 2492, character: 34
+----------------------------------------
+3) Knuth-Morris-Pratt Algorithm: 
+----------------------------------------
+Pattern found at line: 22, character: 10
+Pattern found at line: 62, character: 10
+Pattern found at line: 102, character: 10
+Pattern found at line: 122, character: 10
+Pattern found at line: 132, character: 12
+Pattern found at line: 217, character: 8
+Pattern found at line: 232, character: 10
+Pattern found at line: 242, character: 12
+Pattern found at line: 252, character: 12
+Pattern found at line: 272, character: 14
+Pattern found at line: 282, character: 14
+Pattern found at line: 312, character: 14
+Pattern found at line: 322, character: 14
+Pattern found at line: 372, character: 12
+Pattern found at line: 382, character: 12
+Pattern found at line: 417, character: 12
+Pattern found at line: 437, character: 12
+Pattern found at line: 462, character: 12
+Pattern found at line: 497, character: 10
+Pattern found at line: 512, character: 10
+Pattern found at line: 537, character: 12
+Pattern found at line: 567, character: 12
+Pattern found at line: 597, character: 14
+Pattern found at line: 627, character: 12
+Pattern found at line: 637, character: 12
+Pattern found at line: 677, character: 10
+Pattern found at line: 692, character: 12
+Pattern found at line: 717, character: 14
+Pattern found at line: 727, character: 14
+Pattern found at line: 767, character: 12
+Pattern found at line: 782, character: 14
+Pattern found at line: 797, character: 14
+Pattern found at line: 812, character: 16
+Pattern found at line: 827, character: 18
+Pattern found at line: 867, character: 20
+Pattern found at line: 912, character: 20
+Pattern found at line: 927, character: 22
+Pattern found at line: 942, character: 22
+Pattern found at line: 977, character: 24
+Pattern found at line: 1022, character: 22
+Pattern found at line: 1032, character: 24
+Pattern found at line: 1097, character: 20
+Pattern found at line: 1107, character: 22
+Pattern found at line: 1137, character: 24
+Pattern found at line: 1192, character: 24
+Pattern found at line: 1202, character: 26
+Pattern found at line: 1212, character: 26
+Pattern found at line: 1227, character: 26
+Pattern found at line: 1277, character: 26
+Pattern found at line: 1287, character: 26
+Pattern found at line: 1312, character: 26
+Pattern found at line: 1327, character: 26
+Pattern found at line: 1347, character: 26
+Pattern found at line: 1367, character: 26
+Pattern found at line: 1382, character: 26
+Pattern found at line: 1442, character: 28
+Pattern found at line: 1472, character: 26
+Pattern found at line: 1487, character: 28
+Pattern found at line: 1552, character: 24
+Pattern found at line: 1582, character: 24
+Pattern found at line: 1662, character: 24
+Pattern found at line: 1672, character: 26
+Pattern found at line: 1682, character: 26
+Pattern found at line: 1717, character: 26
+Pattern found at line: 1757, character: 28
+Pattern found at line: 1772, character: 28
+Pattern found at line: 1792, character: 30
+Pattern found at line: 1802, character: 32
+Pattern found at line: 1822, character: 34
+Pattern found at line: 1852, character: 32
+Pattern found at line: 1867, character: 34
+Pattern found at line: 1877, character: 34
+Pattern found at line: 1902, character: 34
+Pattern found at line: 1932, character: 36
+Pattern found at line: 1977, character: 36
+Pattern found at line: 2047, character: 30
+Pattern found at line: 2067, character: 30
+Pattern found at line: 2092, character: 28
+Pattern found at line: 2102, character: 28
+Pattern found at line: 2122, character: 28
+Pattern found at line: 2147, character: 28
+Pattern found at line: 2172, character: 28
+Pattern found at line: 2227, character: 26
+Pattern found at line: 2242, character: 28
+Pattern found at line: 2257, character: 30
+Pattern found at line: 2287, character: 32
+Pattern found at line: 2307, character: 32
+Pattern found at line: 2332, character: 34
+Pattern found at line: 2347, character: 36
+Pattern found at line: 2367, character: 34
+Pattern found at line: 2382, character: 34
+Pattern found at line: 2422, character: 36
+Pattern found at line: 2432, character: 36
+Pattern found at line: 2447, character: 36
+Pattern found at line: 2492, character: 34
+----------------------------------------
+           Algorithm |  Execution Time
+               Naive |           43 ms
+          Rabin-Karp |           19 ms
+  Knuth-Morris-Pratt |           28 ms
+Process finished with exit code 0

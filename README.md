@@ -25,4 +25,9 @@ Dynamic Programming:
 Data Compressions:
 - [HuffmanCodes](https://github.com/mateuszniewiadomski/Algorithms/tree/master/HuffmanCodes)
 
+String-Searching Algorithms:
+- [Naive](https://github.com/mateuszniewiadomski/Algorithms/tree/master/SearchPattern)
+- [Rabin-Karp](https://github.com/mateuszniewiadomski/Algorithms/tree/master/SearchPattern)
+- [Knuth-Morris-Pratt](https://github.com/mateuszniewiadomski/Algorithms/tree/master/SearchPattern)
+
 
