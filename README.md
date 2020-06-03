@@ -30,4 +30,6 @@ String-Searching Algorithms:
 - [Rabin-Karp](https://github.com/mateuszniewiadomski/Algorithms/tree/master/SearchPattern)
 - [Knuth-Morris-Pratt](https://github.com/mateuszniewiadomski/Algorithms/tree/master/SearchPattern)
 
-
+Graph:
+- [DFS](https://github.com/mateuszniewiadomski/Algorithms/tree/master/SearchPattern)
+- [BFS](https://github.com/mateuszniewiadomski/Algorithms/tree/master/SearchPattern)
